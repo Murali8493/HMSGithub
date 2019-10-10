@@ -1,0 +1,11 @@
+<suite name="HMS" parallel="tests">
+
+<test name="chrome Results">
+<classes>
+<parameter name="browser" value="chrome"></parameter>
+<class name="mavanPackage.HMSReg"></class>
+</classes>
+</test>
+
+
+</suite>

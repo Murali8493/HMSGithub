@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HMS" duration-ms="45508" started-at="2019-10-10T06:21:36Z" finished-at="2019-10-10T06:22:22Z">
+    <groups>
+    </groups>
+    <test name="chrome Results" duration-ms="34956" started-at="2019-10-10T06:21:36Z" finished-at="2019-10-10T06:22:11Z">
+      <class name="mavanPackage.HMSReg">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mavanPackage.HMSReg@62ee68d8]" name="beforeTest" is-config="true" duration-ms="13198" started-at="2019-10-09T23:21:36Z" finished-at="2019-10-09T23:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:mavanPackage.HMSReg@62ee68d8]" name="f" duration-ms="21725" started-at="2019-10-09T23:21:50Z" description="Test to check HMS Registration funcationality" finished-at="2019-10-09T23:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mavanPackage.HMSReg@62ee68d8]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-10-09T23:22:11Z" finished-at="2019-10-09T23:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mavanPackage.HMSReg -->
+    </test> <!-- chrome Results -->
+    <test name="firefox Results" duration-ms="45507" started-at="2019-10-10T06:21:36Z" finished-at="2019-10-10T06:22:22Z">
+      <class name="mavanPackage.HMSReg">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mavanPackage.HMSReg@523884b2]" name="beforeTest" is-config="true" duration-ms="29084" started-at="2019-10-09T23:21:36Z" finished-at="2019-10-09T23:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:mavanPackage.HMSReg@523884b2]" name="f" duration-ms="16410" started-at="2019-10-09T23:22:06Z" description="Test to check HMS Registration funcationality" finished-at="2019-10-09T23:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mavanPackage.HMSReg@523884b2]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-10-09T23:22:22Z" finished-at="2019-10-09T23:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mavanPackage.HMSReg -->
+    </test> <!-- firefox Results -->
+  </suite> <!-- HMS -->
+</testng-results>
